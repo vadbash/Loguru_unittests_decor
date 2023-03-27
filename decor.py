@@ -8,7 +8,7 @@ def logging(func):
         end = time.time()
         #time params
         prog_time = end - start
-        #finish input
+        #finish output
         print(f"Time = {round(prog_time, 10)} seconds")
         return res
     return wrapper
