@@ -6,7 +6,7 @@ def convert(s):
 convert("Hello world")
 
 #testcase
-class Test_convert(unittest.TestCase):
+class TestConvert(unittest.TestCase):
     #test1
     def test_simple(self):
         res = convert("Hello world")
